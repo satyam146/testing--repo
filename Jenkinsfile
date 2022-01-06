@@ -3,7 +3,7 @@ agent any
 stages {
 stage('Main') {
 steps {
-echo "Main... branch"
+echo "Main... $(BUILD_NUMBER)  $(JOB_NAME)"
 }
 }
 }
